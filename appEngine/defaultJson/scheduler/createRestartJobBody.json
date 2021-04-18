@@ -1,0 +1,9 @@
+{
+  "schedule": "00 * * * *",
+  "pubsubTarget": {
+    "topicName": "[REPLACE]",
+    "attributes": {
+      "vmName": "[REPLACE]"
+    }
+  }
+}

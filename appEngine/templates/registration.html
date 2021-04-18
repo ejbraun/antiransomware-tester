@@ -1,0 +1,25 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<div class="container">
+  <h3>Test Setup</h3>
+  <hr>
+    {{ wtf.quick_form(form) }}
+  <hr>
+  <p>This list contains the explanation of the flags and the options the default payload can take (case-sensitive)
+    <ol>
+      <li>encr = Encryption - ASY/SYM</li>
+      <li>trav = Traversal - BFS/DFS/SUB (SUB - Spawns a sub-process for each sub-folder)</li>
+      <li>writing = Writing the encrypted data to a new file (same name) or temp file - Yes/No/Tmp</li>
+      <li>ext = Changing the extension of the file - Yes/No</li>
+      <li>merg = Merge all the files in a folder into a single file - Yes/No</li>
+      <li>mid = Encrypt just the middle part of the file - Yes/No</li>
+      <li>sleep = sleep between encryption - Yes/No</li>
+      <li>small = encrypt small files - Yes/No</li>
+      <li>large = encrypt large files - Yes/No</li>
+      <li>default = default 'Yes' is to encrypt all files and default 'No' is to only encrypt 'pdf,doc,jpg' file extensions - Yes/No</li>
+      <li>root = root folder location (multiple root folder) can be written by delimiting by ';'</li>
+    </ol>
+  </p>
+</div>
+{% endblock %}
