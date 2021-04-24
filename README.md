@@ -57,7 +57,7 @@ File directory structure is as follows:
  6. Now, execute the script with the command `./createSQLInstanceAndDB.sh [INSTANCE_ID] [ROOT_PASSWORD] [USER_NAME] [DATABASE_NAME]`. 
  7. A prompt will appear asking you if you would like to enable the `sqladmin.googleapis.com`. Type `y` and press enter. The creation process will take a few minutes.
  8.  Once *Script execution complete* is displayed in the shell, refresh the page. Click on the *Navigation menu* at the top left of the page and click on *SQL* under *Databases*. An instance with *Instance ID* `[INSTANCE_ID]` should be visible and running. 
- 9. Click on the entry in the table corresponding to `[INSTANCE_ID]`. In the redirected page, copy the text in the subheader *Connection name* under the header *Connect to this instance*. This value (`[CONNECTION_NAME]`) along with the above values (`[INSTANCE_ID] [ROOT_PASSWORD] [USER_NAME] [DATABASE_NAME]`) will be set in the `app.yaml`configuration in the **[Deployment](#deployment)** section.
+ 9. Click on the entry in the table corresponding to `[INSTANCE_ID]`. In the redirected page, copy the text in the subheader *Connection name* under the header *Connect to this instance*. This value (`[CONNECTION_NAME]`) along with the above values (`[INSTANCE_ID] [ROOT_PASSWORD] [USER_NAME] [DATABASE_NAME]`) will be set in the `app.yaml`configuration in the **[Configuration Modification](#configuration-modification)** section.
  10. Stop the instance if you do not wish to incur charges while the application is not deployed.
 ***
 
