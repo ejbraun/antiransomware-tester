@@ -8,7 +8,6 @@ env_variables:
   PROJECT_NAME: {PLACEHOLDER}
   ZONE: {PLACEHOLDER}
   LOCATION: {PLACEHOLDER}
-  ROOT: {PLACEHOLDER}
   TOPIC_NAME : host_topic
   SUB_NAME : host_sub
 # [END gae_python37_cloudsql_config]
