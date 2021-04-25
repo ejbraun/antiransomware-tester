@@ -456,43 +456,43 @@ def generateBatchTestCases(batch, experimentName):
     val = batch[1]
     # Determine which flag represents the batch. Use only the given value for the batch
     # Set the rest of the flags to be the default values in flagDict
-    if flag == '-encr':
+    if flag == 'encr':
         encrList.append(val)
     else:
         encrList = flagDict['encr']
-    if flag == '-trav':
+    if flag == 'trav':
         travList.append(val)
     else:
         travList = flagDict['trav']
-    if flag == '-writing':
+    if flag == 'writing':
         writingList.append(val)
     else:
         writingList = flagDict['writing']
-    if flag == '-ext':
+    if flag == 'ext':
         extList.append(val)
     else:
         extList = flagDict['ext']
-    if flag == '-merg':
+    if flag == 'merg':
         mergList.append(val)
     else:
         mergList = flagDict['merg']
-    if flag == '-mid':
+    if flag == 'mid':
         midList.append(val)
     else:
         midList = flagDict['mid']
-    if flag == '-sleep':
+    if flag == 'sleep':
         sleepList.append(val)
     else:
         sleepList = flagDict['sleep']
-    if flag == '-small':
+    if flag == 'small':
         smallList.append(val)
     else:
         smallList = flagDict['small']
-    if flag == '-large':
+    if flag == 'large':
         largeList.append(val)
     else:
         largeList = flagDict['large']
-    if flag == '-default':
+    if flag == 'default':
         defaultList.append(val)
     else:
         defaultList = flagDict['default']
