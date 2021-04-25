@@ -29,7 +29,7 @@ sub_name = ''
 # User defined name of a particular experiment
 experimentName = ''
 # Where the mock ransomware payload is directed to begin execution
-rootPairString = './testDirectory'
+rootPairString = '.\\files'
 # Maximum number of retries allowed for a test before marked as failed
 max_retries = 3
 # Logging object
