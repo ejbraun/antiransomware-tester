@@ -40,7 +40,7 @@ File directory structure is as follows:
 
 ## System Architecture
 
-### Experiment Setup and Creation
+### Experiment Setup / Creation
 
 After the application is deployed and the user navigates to the webpage in a browser, a form is displayed:
  
